@@ -1,0 +1,13 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Poppygub HUB", "Midnight")
+
+local Tab = Window:NewTab("ฟังก์ชันหน้าหลัก")
+
+local Section = Tab:NewSection("ฟังก์ชันหน้าหลัก")
+
+Section:NewButton("🤑", "😶‍🌫️", function()
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+
+end)...
